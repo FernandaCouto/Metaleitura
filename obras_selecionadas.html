@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/src/styles/styles.css">
+    <link rel="stylesheet" href="/src/styles/header.css">
+    <link rel="stylesheet" href="/src/styles/home.css">
+    <link rel="stylesheet" href="/src/styles/obras_selecionadas.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>Obras selecionadas</title>
+</head>
+<body> 
+    <header>
+        <nav id="navbar">
+            <i class="fa-solid fa-book-open-reader" id="nav_logo"></i>
+            <ul id="nav_lista">
+                <li class="nav_item active">
+                    <a href="/index.html">Início</a>
+                </li>
+                <li class="nav_item">
+                    <a href="/a_biblioteca.html">A biblioteca</a>
+                </li>
+                <li class="nav_item">
+                    <a href="/a_exposicao.html">A exposição</a>
+                </li>
+                <li class="nav_item">
+                    <a href="/outros_projetos_da_biblioteca.html">Outros projetos</a>
+                </li>
+            </ul>
+            <button class="btn-default">
+                Conhecer obras selecionadas
+            </button>
+            <button id="mobile_btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+        <div id="mobile_menu">
+            <ul id="mobile_nav_lista">
+            <li class="nav_item">
+                <a href="/index.html">Início</a>
+            </li>
+            <li class="nav_item">
+                <a href="/a_biblioteca.html">A biblioteca</a>
+            </li>
+            <li class="nav_item">
+                <a href="/a_exposicao.html">A exposição</a>
+            </li>
+            <li class="nav_item">
+                <a href="/outros_projetos_da_biblioteca.html">Outros projetos</a>
+            </li>
+            </ul>
+            <button class="btn-default">
+                Conhecer obras selecionadas
+            </button>
+        </div>
+    </header>
+        <main id="content">
+            <section id="obras_selecionadas">
+            <h2 class="section-title">Obras selecionadas</h2>
+            <p class="description">Clicando na obra desejada é possível acessar um mini dossiê sobre a obra e o autor.</p>
+            <div id="livros">
+            <div class="livro">
+                <a href="/livros/a_biblioteca_da_meia_noite.html" target="_self"><img src="/src/images/capas_livros/a_biblioteca_da_meia_noite.webp" alt="Capa do livro A biblioteca da meia-noite" class="capa_livro" width="150" height="250"></a>
+                <a href="/livros/a_biblioteca_da_meia_noite.html" class="link" target="_self" rel="next">
+                    <h3 class="titulo-livro">A biblioteca da meia-noite</h3>
+                </a>
+            </div>
+            <div class="livro">
+                <a href="/livros/a_biblioteca_dos_sonhos_secretos.html" target="_self"><img src="/src/images/capas_livros/a_biblioteca_dos_sonhos_secretos.jpg" alt="Capa do livro A biblioteca dos sonhos secretos" class="capa_livro" width="150" height="250"></a>
+                <a href="/livros/a_biblioteca_dos_sonhos_secretos.html" class="link" target="_self" rel="next">
+                    <h3 class="titulo-livro">A biblioteca dos sonhos secretos</h3>
+                </a>
+            </div>
+            <div class="livro">
+                <a href="/livros/a_bibliotecaria_de_auschwitz.html" target="_self" rel="next"><img src="/src/images/capas_livros/a_bibliotecaria_de_auschiwitz.jpg" alt="Capa do livro A bibliotecária de Auschwitz" class="capa_livro" width="150" height="250"></a>
+                <a href="/livros/a_bibliotecaria_de_auschwitz.html" class="link" target="_self" rel="next">
+                    <h3 class="titulo-livro">A bibliotecária de Auschwitz</h3>
+                </a>
+            </div>
+            <div class="livro">
+                <a href="/livros/a_construcao_do_livro.html" target="_self" rel="next"><img src="/src/images/capas_livros/a_constucao_do_livro.jpg" alt="Capa do livro A construção do livro" class="capa_livro" width="150" height="250"></a>
+                <a href="/livros/a_construcao_do_livro.html" target="_self" rel="next" class="link">
+                    <h3 class="titulo-livro">A construção do livro</h3>
+                </a>
+            </div>
+            <div class="livro">
+                <a href="/livros/a_grande_fabrica_de_palavras.html" target="_self" rel="next"><img src="/src/images/capas_livros/a_grande_fabrica_de_palavras.jpg" alt="Capa do livro A grande fábrica de palavras" class="capa_livro" width="150" height="250"></a>
+                <a href="/livros/a_grande_fabrica_de_palavras.html" target="_self" rel="next" class="link">
+                    <h3 class="titulo-livro">A grande fábrica de palavras</h3>
+                </a>
+            </div>
+            <div class="livro">
+                <a href="/livros/a_menina_que_roubava_livros.html" target="_self" rel="next"><img src="/src/images/capas_livros/a_menina_que_roubava_livros.jpg" alt="Capa do livro A menina que roubava livros" class="capa_livro" width="150" height="250"></a>
+                <a href="/livros/a_menina_que_roubava_livros.html" target="_self" rel="next" class="link">
+                    <h3 class="titulo-livro">A menina que roubava livros</h3>
+                </a>
+            </div>
+            <div class="livro">
+                <a href="/livros/babel.html" target="_self" rel="next"><img src="/src/images/capas_livros/babel.jpg" alt="Capa do livro Babel" class="capa_livro" width="150" height="250"></a>
+                <a href="/livros/babel.html" target="_self" rel="next" class="link">
+                    <h3 class="titulo-livro">Babel</h3>
+                </a>
+            </div>
+            <div class="livro">
+                <a href="/livros/bruxas_literarias.html" target="_self" rel="next"><img src="/src/images/capas_livros/bruxas_literarias.jpg" alt="Capa do livro Bruxas literárias" class="capa_livro" width="150" height="250"></a>
+                <a href="/livros/bruxas_literarias.html" target="_self" rel="next" class="link">
+                    <h3 class="titulo-livro">Bruxas literárias</h3>
+                </a>
+            </div>
+            <div class="livro">
+                <a href="/livros/historia_afetiva_de_leitores_e_bibliotecas_em_belo_horizonte.html" target="_self" rel="next"><img src="/src/images/capas_livros/hitoria_afetiva_dos_leitores_e_bibliotecas_de_belo_horizonte.jpg" alt="Capa do livro História afetiva de leitores e bibliotecas em Belo Horizonte" class="capa_livro" width="150" height="250"></a>
+                <a href="/livros/historia_afetiva_de_leitores_e_bibliotecas_em_belo_horizonte.html" target="_self" rel="next" class="link">
+                    <h3 class="titulo-livro">História afetiva de leitores e bibliotecas em Belo Horizonte</h3>
+                </a>
+            </div>
+            <div class="livro">
+                <a href="/livros/o_livro_da_literatura.html" target="_self" rel="next"><img src="/src/images/capas_livros/o_livro_da_literatura.jpg" alt="Capa do livro O livro da literatura" class="capa_livro" width="150" height="250"></a>
+                <a href="/livros/o_livro_da_literatura.html" target="_self" rel="next" class="link">
+                    <h3 class="titulo-livro">O livro da literatura</h3>
+                </a>
+            </div>
+            <div class="livro">
+                <a href="/livros/o_mercador_de_livros_malditos.html" target="_self" rel="next"><img src="/src/images/capas_livros/o_mercador_de_livros_malditos.jpg" alt="Capa do livro O mercador de livros malditos" class="capa_livro" width="150" height="250"></a>
+                <a href="/livros/o_mercador_de_livros_malditos.html" target="_self" rel="next" class="link">
+                    <h3 class="titulo-livro">O mercador de livros malditos</h3>
+                </a>
+            </div>
+            <div class="livro">
+                <a href="/livros/o_mundo_de_sofia.html" target="_self" rel="next"><img src="/src/images/capas_livros/o_mundo_de_sofia.jpg" alt="Capa do livro O mundo de Sofia" class="capa_livro" width="150" height="250"></a>
+                <a href="/livros/o_mundo_de_sofia.html" target="_self" rel="next" class="link">
+                    <h3 class="titulo-livro">O mundo de Sofia</h3>
+                </a>
+            </div>
+            <div class="livro">
+                <a href="/livros/o_nome_da_rosa.html" target="_self" rel="next"><img src="/src/images/capas_livros/o_nome_da_rosa.jpg" alt="Capa do livro O nome da Rosa" class="capa_livro" width="150" height="250"></a>
+                <a href="/livros/o_nome_da_rosa.html" target="_self" rel="next" class="link">
+                    <h3 class="titulo-livro">O nome da Rosa</h3>
+                </a>
+            </div>
+            <div class="livro">
+                <a href="/livros/os_homens_que_salvavam_livros.html" target="_self" rel="next"><img src="/src/images/capas_livros/os_homens_que_salvavam_livros.jpg" alt="Capa do livro Os homens que salvavam livros" class="capa_livro" width="150" height="250"></a>
+                    <a href="/livros/os_homens_que_salvavam_livros.html" target="_self" rel="next" class="link">
+                        <h3 class="titulo-livro">Os homens que salvavam livros</h3>
+                    </a>
+            </div>
+            <div class="livro">
+                <a href="/livros/por que_ler_os_classicos.html" target="_self" rel="next"><img src="/src/images/capas_livros/po que_ler_os_classicos.jpg" alt="Capa do livro Por que ler os clássicos" class="capa_livro" width="150" height="250"></a>
+                <a href="/livros/por que_ler_os_classicos.html" target="_self" rel="next" class="link">
+                    <h3 class="titulo-livro">Por que ler os clássicos</h3>
+                </a>
+            </div>
+            <div class="livro">
+                <a href="/livros/the_atlas_six.html" target="_self" rel="next"><img src="/src/images/capas_livros/the_atlas_six.jpg" alt="Capa do livro The Atlas Six" class="capa_livro" width="150" height="250"></a>
+                <a href="/livros/the_atlas_six.html" target="_self" rel="next" class="link">
+                    <h3 class="titulo-livro">The Atlas Six</h3>
+                </a>
+            </div>
+            <div class="livro">
+                <a href="/livros/vida_a_deriva.html" target="_self" rel="next"><img src="/src/images/capas_livros/vida_a_deriva.jpg" alt="Capa do livro Vida à deriva" class="capa_livro" width="150" height="250"></a>
+                <a href="/livros/vida_a_deriva.html" target="_self" rel="next" class="link">
+                    <h3 class="titulo-livro">Vida à deriva</h3>
+                </a>
+            </div>
+            </div>
+        </section>
+            <div id="mobile_obras_selecionadas">
+                <h2 class="section-title">Obras selecionadas</h2>
+            <p class="description">Clicando na obra desejada é possível acessar um mini dossiê sobre a obra e o autor.</p>
+            <div id="livros">
+            <div class="livro">
+                <a href="/livros/a_biblioteca_da_meia_noite.html" target="_self"><img src="/src/images/capas_livros/a_biblioteca_da_meia_noite.webp" alt="Capa do livro A biblioteca da meia-noite" class="capa_livro" width="150" height="250"></a>
+                <a href="/livros/a_biblioteca_da_meia_noite.html" class="link" target="_self" rel="next">
+                    <h3 class="titulo-livro">A biblioteca da meia-noite</h3>
+                </a>
+            </div>
+            <div class="livro">
+                <a href="/livros/a_biblioteca_dos_sonhos_secretos.html" target="_self"><img src="/src/images/capas_livros/a_biblioteca_dos_sonhos_secretos.jpg" alt="Capa do livro A biblioteca dos sonhos secretos" class="capa_livro" width="150" height="250"></a>
+                <a href="/livros/a_biblioteca_dos_sonhos_secretos.html" class="link" target="_self" rel="next">
+                    <h3 class="titulo-livro">A biblioteca dos sonhos secretos</h3>
+                </a>
+            </div>
+            <div class="livro">
+                <a href="/livros/a_bibliotecaria_de_auschwitz.html" target="_self" rel="next"><img src="/src/images/capas_livros/a_bibliotecaria_de_auschiwitz.jpg" alt="Capa do livro A bibliotecária de Auschwitz" class="capa_livro" width="150" height="250"></a>
+                <a href="/livros/a_bibliotecaria_de_auschwitz.html" class="link" target="_self" rel="next">
+                    <h3 class="titulo-livro">A bibliotecária de Auschwitz</h3>
+                </a>
+            </div>
+            <div class="livro">
+                <a href="/livros/a_construcao_do_livro.html" target="_self" rel="next"><img src="/src/images/capas_livros/a_constucao_do_livro.jpg" alt="Capa do livro A construção do livro" class="capa_livro" width="150" height="250"></a>
+                <a href="/livros/a_construcao_do_livro.html" target="_self" rel="next" class="link">
+                    <h3 class="titulo-livro">A construção do livro</h3>
+                </a>
+            </div>
+            <div class="livro">
+                <a href="/livros/a_grande_fabrica_de_palavras.html" target="_self" rel="next"><img src="/src/images/capas_livros/a_grande_fabrica_de_palavras.jpg" alt="Capa do livro A grande fábrica de palavras" class="capa_livro" width="150" height="250"></a>
+                <a href="/livros/a_grande_fabrica_de_palavras.html" target="_self" rel="next" class="link">
+                    <h3 class="titulo-livro">A grande fábrica de palavras</h3>
+                </a>
+            </div>
+            <div class="livro">
+                <a href="/livros/a_menina_que_roubava_livros.html" target="_self" rel="next"><img src="/src/images/capas_livros/a_menina_que_roubava_livros.jpg" alt="Capa do livro A menina que roubava livros" class="capa_livro" width="150" height="250"></a>
+                <a href="/livros/a_menina_que_roubava_livros.html" target="_self" rel="next" class="link">
+                    <h3 class="titulo-livro">A menina que roubava livros</h3>
+                </a>
+            </div>
+            <div class="livro">
+                <a href="/livros/babel.html" target="_self" rel="next"><img src="/src/images/capas_livros/babel.jpg" alt="Capa do livro Babel" class="capa_livro" width="150" height="250"></a>
+                <a href="/livros/babel.html" target="_self" rel="next" class="link">
+                    <h3 class="titulo-livro">Babel</h3>
+                </a>
+            </div>
+            <div class="livro">
+                <a href="/livros/bruxas_literarias.html" target="_self" rel="next"><img src="/src/images/capas_livros/bruxas_literarias.jpg" alt="Capa do livro Bruxas literárias" class="capa_livro" width="150" height="250"></a>
+                <a href="/livros/bruxas_literarias.html" target="_self" rel="next" class="link">
+                    <h3 class="titulo-livro">Bruxas literárias</h3>
+                </a>
+            </div>
+            <div class="livro">
+                <a href="/livros/historia_afetiva_de_leitores_e_bibliotecas_em_belo_horizonte.html" target="_self" rel="next"><img src="/src/images/capas_livros/hitoria_afetiva_dos_leitores_e_bibliotecas_de_belo_horizonte.jpg" alt="Capa do livro História afetiva de leitores e bibliotecas em Belo Horizonte" class="capa_livro" width="150" height="250"></a>
+                <a href="/livros/historia_afetiva_de_leitores_e_bibliotecas_em_belo_horizonte.html" target="_self" rel="next" class="link">
+                    <h3 class="titulo-livro">História afetiva de leitores e bibliotecas em Belo Horizonte</h3>
+                </a>
+            </div>
+            <div class="livro">
+                <a href="/livros/o_livro_da_literatura.html" target="_self" rel="next"><img src="/src/images/capas_livros/o_livro_da_literatura.jpg" alt="Capa do livro O livro da literatura" class="capa_livro" width="150" height="250"></a>
+                <a href="/livros/o_livro_da_literatura.html" target="_self" rel="next" class="link">
+                    <h3 class="titulo-livro">O livro da literatura</h3>
+                </a>
+            </div>
+            <div class="livro">
+                <a href="/livros/o_mercador_de_livros_malditos.html" target="_self" rel="next"><img src="/src/images/capas_livros/o_mercador_de_livros_malditos.jpg" alt="Capa do livro O mercador de livros malditos" class="capa_livro" width="150" height="250"></a>
+                <a href="/livros/o_mercador_de_livros_malditos.html" target="_self" rel="next" class="link">
+                    <h3 class="titulo-livro">O mercador de livros malditos</h3>
+                </a>
+            </div>
+            <div class="livro">
+                <a href="/livros/o_mundo_de_sofia.html" target="_self" rel="next"><img src="/src/images/capas_livros/o_mundo_de_sofia.jpg" alt="Capa do livro O mundo de Sofia" class="capa_livro" width="150" height="250"></a>
+                <a href="/livros/o_mundo_de_sofia.html" target="_self" rel="next" class="link">
+                    <h3 class="titulo-livro">O mundo de Sofia</h3>
+                </a>
+            </div>
+            <div class="livro">
+                <a href="/livros/o_nome_da_rosa.html" target="_self" rel="next"><img src="/src/images/capas_livros/o_nome_da_rosa.jpg" alt="Capa do livro O nome da Rosa" class="capa_livro" width="150" height="250"></a>
+                <a href="/livros/o_nome_da_rosa.html" target="_self" rel="next" class="link">
+                    <h3 class="titulo-livro">O nome da Rosa</h3>
+                </a>
+            </div>
+            <div class="livro">
+                <a href="/livros/os_homens_que_salvavam_livros.html" target="_self" rel="next"><img src="/src/images/capas_livros/os_homens_que_salvavam_livros.jpg" alt="Capa do livro Os homens que salvavam livros" class="capa_livro" width="150" height="250"></a>
+                    <a href="/livros/os_homens_que_salvavam_livros.html" target="_self" rel="next" class="link">
+                        <h3 class="titulo-livro">Os homens que salvavam livros</h3>
+                    </a>
+            </div>
+            <div class="livro">
+                <a href="/livros/por que_ler_os_classicos.html" target="_self" rel="next"><img src="/src/images/capas_livros/po que_ler_os_classicos.jpg" alt="Capa do livro Por que ler os clássicos" class="capa_livro" width="150" height="250"></a>
+                <a href="/livros/por que_ler_os_classicos.html" target="_self" rel="next" class="link">
+                    <h3 class="titulo-livro">Por que ler os clássicos</h3>
+                </a>
+            </div>
+            <div class="livro">
+                <a href="/livros/the_atlas_six.html" target="_self" rel="next"><img src="/src/images/capas_livros/the_atlas_six.jpg" alt="Capa do livro The Atlas Six" class="capa_livro" width="150" height="250"></a>
+                <a href="/livros/the_atlas_six.html" target="_self" rel="next" class="link">
+                    <h3 class="titulo-livro">The Atlas Six</h3>
+                </a>
+            </div>
+            <div class="livro">
+                <a href="/livros/vida_a_deriva.html" target="_self" rel="next"><img src="/src/images/capas_livros/vida_a_deriva.jpg" alt="Capa do livro Vida à deriva" class="capa_livro" width="150" height="250"></a>
+                <a href="/livros/vida_a_deriva.html" target="_self" rel="next" class="link">
+                    <h3 class="titulo-livro">Vida à deriva</h3>
+                </a>
+            </div>
+            </div>
+            </div>
+
+        </main>
+    <script src="src/javascript/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/src/styles/styles.css">
+    <link rel="stylesheet" href="/src/styles/header.css">
+    <link rel="stylesheet" href="/src/styles/home.css">
+    <link rel="stylesheet" href="/src/styles/obras_selecionadas.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>O mundo de Sofia</title>
+</head>
+<body> 
+   <header>
+        <nav id="navbar">
+            <i class="fa-solid fa-book-open-reader" id="nav_logo"></i>
+            <ul id="nav_lista">
+                <li class="nav_item active">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav_item">
+                    <a href="/a_biblioteca.html">A biblioteca</a>
+                </li>
+                <li class="nav_item">
+                    <a href="/a_exposicao.html">A exposição</a>
+                </li>
+                <li class="nav_item">
+                    <a href="/outros_projetos_da_biblioteca.html">Outros projetos</a>
+                </li>
+            </ul>
+            <button class="btn-default">
+                Conhecer obras selecionadas
+            </button>
+            <button id="mobile_btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+        <div id="mobile_menu">
+            <ul id="mobile_nav_lista">
+            <li class="nav_item">
+                <a href="#home">Início</a>
+            </li>
+            <li class="nav_item">
+                <a href="/a_biblioteca.html">A biblioteca</a>
+            </li>
+            <li class="nav_item">
+                <a href="#expo">A exposição</a>
+            </li>
+            <li class="nav_item">
+                <a href="#outros">Outros projetos</a>
+            </li>
+            </ul>
+            <button class="btn-default">
+                Conhecer obras selecionadas
+            </button>
+        </div>
+    </header>
+    <main id="content">
+        <section class="conteudo_livro">
+            <img src="/src/images/capas_livros/o_mundo_de_sofia.jpg" alt="capa do livro O mundo de Sofia" width="200" height="300">
+            <div class="detalhes_da_obra">
+                <h2 class="section-title">O mundo de Sofia</h2>
+                <p class="detalhes_da_obra_reflexao">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus unde architecto cum quo illo ea, corrupti blanditiis dolore explicabo porro voluptate quia ab nam maxime tenetur iste voluptatibus debitis? Eum.</p>
+            <div class="resumo">
+                    <h3 class="resumo-titulos">Resumo do livro</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. A, repudiandae. Sapiente consectetur, laborum quae consequatur magnam mollitia eos in placeat non ut facilis neque hic aperiam quis est totam eum.</p>
+                    <h3 class="resumo-titulos">Sobre o autor</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur reprehenderit sint aut nisi consequuntur rem, aliquam eveniet assumenda officiis, harum quam impedit asperiores sed! Vitae animi totam provident molestias harum.</p>
+            </div>
+            </div>
+        </section>
+        <div class="mobile_conteudo_livro">
+            <img src="/src/images/capas_livros/o_mundo_de_sofia.jpg" alt="capa do livro O mundo de Sofia" width="200" height="300">
+            <div class="detalhes_da_obra">
+                <h2 class="section-title">O mundo de Sofia</h2>
+                <p class="detalhes_da_obra_reflexao">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus unde architecto cum quo illo ea, corrupti blanditiis dolore explicabo porro voluptate quia ab nam maxime tenetur iste voluptatibus debitis? Eum.</p>
+            <div class="resumo">
+                    <h3 class="resumo-titulos">Resumo do livro</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. A, repudiandae. Sapiente consectetur, laborum quae consequatur magnam mollitia eos in placeat non ut facilis neque hic aperiam quis est totam eum.</p>
+                    <h3 class="resumo-titulos">Sobre o autor</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur reprehenderit sint aut nisi consequuntur rem, aliquam eveniet assumenda officiis, harum quam impedit asperiores sed! Vitae animi totam provident molestias harum.</p>
+            </div>
+            </div>
+        </div>
+    </main>
+    <script src="src/javascript/script.js"></script>
+</body>
+</html>
